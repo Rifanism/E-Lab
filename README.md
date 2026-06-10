@@ -1,2 +1,2 @@
-# E-LabBorrow
-Web Based Programming Project Repository | E-LabBorrow
+# E-Lab
+Web Based Programming Project Repository | E-Lab
