@@ -1,6 +1,5 @@
 <?php require_once __DIR__ . '/../layout/header_user.php'; ?>
 
-<!-- HERO -->
 <div class="user-hero">
   <div class="hero-greeting">Halo, <?= htmlspecialchars(explode(' ', $_SESSION['nama'])[0]) ?>! 👋</div>
   <div class="hero-sub">Senin, <?= date('d F Y') ?> · Selamat datang di E-Lab</div>
@@ -26,7 +25,6 @@
     </div>
   </div>
 
-  <!-- Peminjaman Aktif -->
   <div class="sec-head">
     <div class="sec-title">Peminjaman Saya</div>
     <a href="index.php?c=user&a=riwayat" class="btn btn-ghost btn-sm">Lihat Semua →</a>
@@ -88,7 +86,6 @@
     </div>
   <?php endif; ?>
 
-  <!-- Preview Katalog -->
   <div class="sec-head">
     <div class="sec-title">Alat Tersedia</div>
     <a href="index.php?c=user&a=katalog" class="btn btn-ghost btn-sm">Lihat Semua →</a>
